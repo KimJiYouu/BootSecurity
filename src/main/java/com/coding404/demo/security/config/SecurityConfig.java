@@ -21,7 +21,7 @@ public class SecurityConfig {
 	@Autowired
 	private MyUserDetailService myUserDetailServcie;
 	
-	//비밀번호 암화화객체
+	//비밀번호 암호화객체
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
